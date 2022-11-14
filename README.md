@@ -10,5 +10,6 @@ In more details:
 5. Enter password
 <!-- db is the name of the database -->
 6. Run command: create database db;
+7. Open .env and change the values
 
 Step3: npm start
