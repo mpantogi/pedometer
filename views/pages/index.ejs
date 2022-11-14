@@ -1,0 +1,20 @@
+<%- include('../partials/header'); %>
+
+<div class="input-form" >
+    <form onsubmit="return false;">
+        <legend>Input Your day Steps</legend>
+        <div class="mb-3">
+          <label for="date" class="form-label">Date</label>
+          <input type="date" class="form-control" id="date" required>
+          
+        </div>
+        <div class="mb-3">
+          <label for="steps" class="form-label">Steps</label>
+          <input type="number" class="form-control" id="steps" required min="1" max="50000">
+         
+        </div>
+       
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</div>
+<%- include('../partials/footer'); %>
